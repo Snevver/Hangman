@@ -1,0 +1,150 @@
+html,
+body {
+    text-align: center;
+    background-color: #000347;
+    font-family: "andale mono", monospace;
+        color: white;
+        margin: 0;
+}
+
+h1 {
+    font-size: 70px;
+    color: #ebebeb;
+}
+
+h2,
+h3 {
+    font-size: 40px;
+    margin: 20px;
+    }
+    
+.beginH3 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0%;
+    color: #000347;
+}
+
+.beginH1 {
+    font-size: 70px;
+    color: #000347;
+
+}
+
+.beginChoicesContainer {
+    display: flex;
+    justify-content: left;
+    margin-top: 90px;
+}
+
+.beginChoice {
+    margin: auto;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    height: 400px;
+    width: 700px;
+}
+
+.beginHeader {
+    margin: auto;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    height: 290px;
+    width: 50%;
+    margin-top: 120px;
+}
+
+.beginButtonRandInput,
+.beginButtonUserDefinedInput {
+    height: 60px;
+    width: 300px;
+    border-radius: 7px;
+    border: 1px solid white;
+    background-color: #000347;
+    color: white;
+        font-size: 20px;
+        cursor: pointer;
+}
+
+.beginButtonRandInput {
+    margin-top: 125px;
+}
+    
+.beginInputField {
+    margin-top: 100px;
+    height: 30px;
+    width: 290px;
+        font-size: 35px;
+        color: #000347;
+}
+
+.choicesContainer,
+.guesses,
+.remainingCharacters,
+.correctAndWrongCharacters {
+    margin: auto;
+    width: 80%;
+}
+
+.guessesRemaining {
+    background-color: #ebebeb;
+    color: #000347;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.inputFieldLetters {
+    background-color: #FFFFFF;
+    color: #000347;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+        font-size: 20px;
+        margin-right: 10px;
+}
+
+.submitButton {
+    background-color: #ffffff;
+    color: #000347;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.remainingCharacters,
+.correctAndWrongCharacters {
+    background-color: #ebebeb;
+    color: #000347;
+    border-radius: 10px;
+        padding: 20px;
+    font-size: 30px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.pictureElement {
+    width: 60%;
+    flex: 1;
+    text-align: left;
+    font-size: 130px;
+    margin-left: 10px;
+}
+
+.gameElement {
+    width: 70%;
+    padding: 10px;
+    flex: 2;
+}
+
+.lostPicture {
+    text-align: left;
+    margin-left: 920px;
+    padding-bottom: 20px;
+}
+input[type="text"],
+input[type="submit"] {
+    font-family: "andale mono", monospace;
+}
